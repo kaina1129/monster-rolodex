@@ -27,6 +27,7 @@ class App extends React.Component {
 
 		return (
 			<div className='App'>
+				<h1>Monster Rolodex </h1>
 				<SearchBar
 					placeholder='search monsters'
 					handleChange={(e) => this.setState({ searchField: e.target.value })}
